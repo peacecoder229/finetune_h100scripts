@@ -1,0 +1,7 @@
+compute_environment: LOCAL_MACHINE
+deepspeed_config: ds_config.json
+distributed_type: DEEPSPEED
+downcast_bf16: 'no'
+mixed_precision: bf16
+num_processes: 2
+use_cpu: false
